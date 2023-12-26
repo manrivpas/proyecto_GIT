@@ -1,5 +1,7 @@
 @charset "utf-8";
 
 body{background-color: rgba(146, 188, 20, 0.851);
+    font-weight: bold;
+    color: blue;
 
 }
