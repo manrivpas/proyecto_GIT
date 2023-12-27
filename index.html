@@ -5,9 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <script src="js/javascript.js"></script>
 </head>
 <body>
 <h1>Primer Proyecto con GIT</h1>
-    <p>Párrafo agregado </p>
+
+<input type="button" onclick="saludo()" value = "Saludo!!!"> 
+
+    <div>   </div>
+
+    <p> Párrafo agregado </p>
+
+
+<h2>Ramas o Branch</h2>
+<div>Son las líneas de tiempo con las instáneas creadas en cada momento</div>
+
+    <div>La principal por defecto recibe el nombre de master</div>
+
+        <div>Adicionalmente git permite crear ramas paralelas a la master 
+        a partir de una instantánea "commit"</div>
+
+        <div> Con esto creamos líneas de trabajo paralelas para pruebas 
+            o trabajos específicos del proyecto (p.e. una persona que solo 
+            trabaja en el diseño con css)</div>
+        <div> Podemos trabajar simultaneamente en la master y en las paralelas</div>
+        <div>El comando para crear una rama es: git branch nombre_de_la_rama</div>
+        <div>Por ejemplo: git branch javascript</div>
+        <div>Para ver en la rama que me encuentro ponemos en el terminal: git branch </div>
+
+        <div>Para trabajar en otra rama usamos: git checkout nombre_de_la_rama  </div>
+
 </body>
 </html>
